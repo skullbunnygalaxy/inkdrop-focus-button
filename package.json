@@ -1,0 +1,13 @@
+{
+  "name": "focus-button",
+  "main": "./lib/focus-button",
+  "version": "0.0.0",
+  "description": "Easy button to switch in and out of focus mode.",
+  "keywords": [],
+  "repository": "https://github.com/inkdropapp/focus-button",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.3.1"
+  },
+  "dependencies": {}
+}
