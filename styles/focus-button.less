@@ -1,12 +1,21 @@
+@button-color: var(--button-color);
+@visible: var(--visible);
+
 .focus-button {
     min-width: 16px;
     min-height: 16px;
 }
 
-.editor-floating-actions.visble{
-    animation-duration: 1s;
+.editor-floating-actions.visible{
+    opacity: 1;
+}
+
+.editor-floating-actions{
+    transition: @visible ease-in-out !important;
+    opacity: 0.2;
+    display: flex !important;
 }
 
 button.mde-toolbar-item{
-    color: blueviolet !important;
+    color: @button-color !important;
 }
