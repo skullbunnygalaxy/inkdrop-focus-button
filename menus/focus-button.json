@@ -2,8 +2,8 @@
   "context-menu": {
     ".CodeMirror": [
       {
-        "label": "Toggle focus-button",
-        "command": "focus-button:toggle"
+        "label": "Toggle Focus Mode",
+        "command": "view:toggle-distraction-free"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "focus-button",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "focus-button:toggle"
+              "label": "Toggle Focus Mode",
+              "command": "view:toggle-distraction-free"
             }
           ]
         }
